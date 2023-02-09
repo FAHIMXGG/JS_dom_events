@@ -20,3 +20,20 @@ const purpleBtn = document.getElementById('make-purple');
 purpleBtn.onclick = function makePurple(){
     document.body.style.backgroundColor= 'purple'
 }
+//option 4
+const hotPinkBtn = document.getElementById('make-hotpink')
+        hotPinkBtn.addEventListener('click',makeHotPink )
+
+        function makeHotPink(){
+            document.body.style.backgroundColor = '#F9AACF'
+        }
+//option 5
+        const makeGreenBtn = document.getElementById('make-green');
+        makeGreenBtn.addEventListener('click', function makeGreen(){
+            document.body.style.backgroundColor = 'green'
+        })
+
+// option 6 this option will use important
+document.getElementById('make-gray').addEventListener('click', function(){
+    document.body.style.backgroundColor = 'gray';
+})
